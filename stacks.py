@@ -11,11 +11,13 @@ def dequeue():
         del stack[0]
     else:
         print("Stack empty")
+    return
 
 
 def peek():
     if len(stack) != 0:
         print(stack[0])
+    return
 
 
 def main():
